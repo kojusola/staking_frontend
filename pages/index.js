@@ -6,18 +6,21 @@ export default function Home() {
   return (
     <div
       css={{
-        fontFamily: "Manrope",
+        fontFamily: "Montserrat",
         width: "100%",
         padding: "44px 30px",
-        backgroundColor: "rgba(146, 128, 247, 0.14)",
+        backgroundColor: "rgba(29, 30, 48, 1)",
       }}
     >
       <Link
         href="/"
-        css={{ fontSize: "28px", lineHeight: "38px", color: "#181350" }}
+        css={{ fontSize: "28px", lineHeight: "38px", color: "#1D1E30" }}
       >
-        CrediScore
+        Stako
       </Link>
+
+      <button className="connect">Connect Wallet</button>
+
     </div>
   );
 }
