@@ -1,6 +1,7 @@
 /** @jsxImportSource @compiled/react */
 
 import Link from "next/link";
+import Table from "../components/top_section";
 
 export default function Home() {
   return (
@@ -19,7 +20,9 @@ export default function Home() {
         Stako
       </Link>
 
-      <button className="connect">Connect Wallet</button>
+      <button> Connect Wallet </button>
+
+      <Table/>
 
     </div>
   );
