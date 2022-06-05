@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Table from "../components/top_section";
+import Chart from "../components/bottom_section";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <button> Connect Wallet </button>
 
       <Table/>
+      <Chart/>
 
     </div>
   );
