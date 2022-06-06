@@ -4,14 +4,16 @@ import React from "react";
 
 const Table = () => {
     return (
+        <div> 
+             <p6 css={{ fontSize: "18px", lineHeight: "50px", color: "#FFF", padding: "2%" }}> All stake</p6>
         <div css={{background: "rgba(0, 0, 0, 0.22)", margin: "2%", padding: "2%"}}>
-            <table  css={{ fontSize: "20px", lineHeight: "38px", color: "#8C8A8A" }}>
+            <table  css={{ fontSize: "18px", lineHeight: "40px", color: "#8C8A8A" }}>
                 <thead css={{ color: "rgba(140, 138, 138, 1)"}}>
                     <tr>
-                        <th css={{padding: "5%"}}>Name</th>
-                        <th>Days Invested</th>
-                        <th>Amount Yield</th>
-                        <th> </th>
+                        <th css={{paddingRight: "12rem"}}>Name</th>
+                        <th css={{paddingRight: "12rem"}}>Days Invested</th>
+                        <th css={{paddingRight: "12rem",}}>Amount Yield</th>
+                        <th css={{paddingRight: "12rem"}}> </th>
                     </tr>
                 </thead>
                 <tbody css={{ fontSize: "16px", color: "#fff", margin: "2%"}}>
@@ -19,7 +21,7 @@ const Table = () => {
                         <td>Stake One</td>
                         <td> - </td>
                         <td> - </td>
-                        <td><button css={{ color: "rgba(255, 255, 255, 1)"}}> Stake </button>
+                        <td><button> Stake </button>
                         </td>
                     </tr>
 
@@ -39,6 +41,7 @@ const Table = () => {
 
                 </tbody>
             </table>
+        </div>
         </div>
 
     );

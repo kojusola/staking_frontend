@@ -1,8 +1,10 @@
 /** @jsxImportSource @compiled/react */
 
 import Link from "next/link";
+import NavBar from "../components/nav_bar";
 import Table from "../components/top_section";
 import Chart from "../components/bottom_section";
+
 
 export default function Home() {
   return (
@@ -14,15 +16,14 @@ export default function Home() {
         backgroundColor: "rgba(29, 30, 48, 1)",
       }}
     >
-      <Link
+      {/* <Link
         href="/"
         css={{ fontSize: "28px", lineHeight: "38px", color: "#1D1E30" }}
       >
         Stako
-      </Link>
-
-      <button> Connect Wallet </button>
-
+      </Link> */}
+      
+      <NavBar/>
       <Table/>
       <Chart/>
 
