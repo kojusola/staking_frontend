@@ -5,7 +5,7 @@ import React from "react";
 const NavBar = () => {
     return (
         <div>
-           <p5 css={{ fontSize: "18px", color: "#4E2DC8", marginRight: "85%" }}> Stako</p5>
+           <p5 css={{ fontSize: "18px", color: "#4E2DC8", marginRight: "80%", padding: "2%"}}> Stako</p5>
            <button className="connect">Connect Wallet</button>
         </div>
 
