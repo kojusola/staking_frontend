@@ -5,8 +5,7 @@ import NavBar from "../components/nav_bar";
 import Table from "../components/top_section";
 import Chart from "../components/bottom_section";
 
-
-export default function Home() {
+export default function Register() {
   return (
     <div
       css={{
@@ -22,11 +21,10 @@ export default function Home() {
       >
         Stako
       </Link> */}
-      
-      <NavBar/>
-      <Table/>
-      <Chart/>
 
+      <NavBar />
+      <Table />
+      <Chart />
     </div>
   );
 }
