@@ -2,6 +2,15 @@
 
 import React from "react";
 
+// function LoginLayout() {
+  
+//     let navigate = useNavigate(); 
+//     const routeChange = () =>{ 
+//       let path = `../pages/index.js`; 
+//       navigate(path);
+//     }
+    
+
 const NavBar = () => {
     return (
         <div>
