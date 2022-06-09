@@ -3,8 +3,16 @@ import React from "react";
 import NavBar from "../components/nav_bar";
 import Table from "../components/top_section2";
 import Chart from "../components/bottom_section";
+import { useRouter } from "next/router";
 
 export default function Home() {
+  const [connected, setConnected] = React.useState(false);
+  const router = useRouter();
+  React.useEffect(() => {
+    if (!connected) {
+      router.push("/register");
+    }
+  }, []);
   return (
     <div
       css={{
@@ -17,7 +25,6 @@ export default function Home() {
       <NavBar buttonText="Disconnect Wallet" availableConnect />
       <Table buttonColor="#BA3432" buttonCol="#00C7BA" />
       <Chart />
-
     </div>
   );
 }
