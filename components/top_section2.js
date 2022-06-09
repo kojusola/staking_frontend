@@ -26,9 +26,9 @@ const Table = ({ buttonColor, buttonCol }) => {
         <table css={{ fontSize: "18px", lineHeight: "40px", color: "#8C8A8A" }}>
           <thead css={{ color: "rgba(140, 138, 138, 1)" }}>
             <tr>
-              <th css={{ paddingRight: "14em" }}>Name</th>
-              <th css={{ paddingRight: "14rem" }}>Days Invested</th>
-              <th css={{ paddingRight: "14rem" }}>Amount Yield</th>
+              <th css={{ paddingRight: "15em" }}>Name</th>
+              <th css={{ paddingRight: "15rem" }}>Days Invested</th>
+              <th css={{ paddingRight: "20rem" }}>Amount Yield</th>
               <th css={{ paddingRight: "0rem" }}> </th>
             </tr>
           </thead>

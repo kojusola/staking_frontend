@@ -14,7 +14,7 @@ export default function Home() {
         backgroundColor: "rgba(29, 30, 48, 1)",
       }}
     >
-      <NavBar buttonText="Disconnect Wallet" />
+      <NavBar buttonText="Disconnect Wallet" availableConnect />
       <Table buttonColor="#BA3432" buttonCol="#00C7BA" />
       <Chart />
 
