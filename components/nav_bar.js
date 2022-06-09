@@ -11,7 +11,7 @@ import { useRouter } from "next/router";
 //       navigate(path);
 //     }
 
-const NavBar = () => {
+const NavBar = ({buttonConnect, buttonText}) => {
   const router = useRouter();
   const handleClick = (e) => {
     e.preventDefault();
@@ -23,16 +23,19 @@ const NavBar = () => {
         css={{
           fontSize: "18px",
           color: "#4E2DC8",
-          marginRight: "80%",
+          marginRight: "78%",
           padding: "2%",
         }}
       >
         {" "}
         Stako
       </p5>
-      <button className="connect" onClick={handleClick}>
-        Connect Wallet
-      </button>
+      {" "}
+      <button className="connect"
+      css={{ backgroundColor: `${buttonConnect}`, borderColor: "#00C7BA", color: "#fff", width: "150px", height: "45px", backgroundColor: "transparent" }}
+       onClick={handleClick}>
+        {buttonText}
+      </button>{" "}
     </div>
   );
 };

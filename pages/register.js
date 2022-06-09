@@ -22,7 +22,7 @@ export default function Register() {
         Stako
       </Link> */}
 
-      <NavBar />
+      <NavBar buttonText="Connect Wallet" />
       <Table />
       <Chart />
     </div>

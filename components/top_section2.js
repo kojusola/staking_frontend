@@ -26,39 +26,39 @@ const Table = ({ buttonColor, buttonCol }) => {
         <table css={{ fontSize: "18px", lineHeight: "40px", color: "#8C8A8A" }}>
           <thead css={{ color: "rgba(140, 138, 138, 1)" }}>
             <tr>
-              <th css={{ paddingRight: "12rem" }}>Name</th>
-              <th css={{ paddingRight: "12rem" }}>Days Invested</th>
-              <th css={{ paddingRight: "12rem" }}>Amount Yield</th>
-              <th css={{ paddingRight: "12rem" }}> </th>
+              <th css={{ paddingRight: "14em" }}>Name</th>
+              <th css={{ paddingRight: "14rem" }}>Days Invested</th>
+              <th css={{ paddingRight: "14rem" }}>Amount Yield</th>
+              <th css={{ paddingRight: "0rem" }}> </th>
             </tr>
           </thead>
           <tbody css={{ fontSize: "16px", color: "#fff", margin: "2%" }}>
             <tr>
               <td>Stake One</td>
-              <td> - </td>
-              <td> - </td>
+              <td> 10 days </td>
+              <td> $10 </td>
               <td>
               {" "}
                 <button
                   className="connect"
-                  css={{ backgroundColor: `${buttonColor}` }}
+                  css={{ backgroundColor: `${buttonColor}`, border: "none", width: "150px", height: "45px", marginBottom: "13px", color: "#fff"}}
                 >
-                  Stake
+                  Unstake
                 </button>{" "}
               </td>
             </tr>
 
             <tr>
               <td>Stake Two</td>
-              <td> - </td>
-              <td> - </td>
+              <td> 10 days </td>
+              <td> $10 </td>
               <td>
                 {" "}
                 <button
                   className="connect"
-                  css={{ backgroundColor: `${buttonColor}` }}
+                  css={{ backgroundColor: `${buttonColor}`, border: "none", width: "150px", height: "45px", marginBottom: "13px", color: "#fff"}}
                 >
-                  Stake
+                  Unstake
                 </button>{" "}
               </td>
             </tr>
@@ -71,7 +71,7 @@ const Table = ({ buttonColor, buttonCol }) => {
               {" "}
                 <button
                   className="connect"
-                  css={{ backgroundColor: `${buttonCol}` }}
+                  css={{ backgroundColor: `${buttonCol}`, border: "none", width: "150px", height: "45px", color: "#fff"}}
                 >
                   Stake
                 </button>{" "}
